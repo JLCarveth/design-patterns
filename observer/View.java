@@ -29,12 +29,11 @@ public class View extends AbstractSubject<String> {
         input = new JTextField(20);
         submit = new JButton("Submit");
 
-        
         this.register(new ConsoleListener());
         this.register(new TextAreaListener(textArea));
 
         AbstractSubject<String> that = this;
-
+        
         submit.addActionListener(new ActionListener(){
             @Override
             public void actionPerformed(ActionEvent e) {

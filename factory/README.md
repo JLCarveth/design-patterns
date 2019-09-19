@@ -4,3 +4,4 @@ The Factory Pattern, like it's namesake, produces a 'product'. An object may kno
 Sources:
 - https://www.baeldung.com/java-abstract-factory-pattern
 - https://en.wikipedia.org/wiki/Factory_method_pattern
+- http://ima.udg.edu/~sellares/EINF-ES1/FactoryToni.pdf
